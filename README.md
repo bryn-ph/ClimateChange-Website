@@ -1,5 +1,5 @@
 # Climate Change Website Using Java, HTML, and CSS
-Starter code for the Studio Project. This is a simple layout connected to a GitHub Classroom that serves as the basis for implementing the studio project. 
+Developed as a studio project at RMIT in a group of 2.
 
 # Current Libraries:
 * org.xerial.sqlite-jdbc (SQLite JDBC library)
