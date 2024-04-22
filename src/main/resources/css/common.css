@@ -1,0 +1,475 @@
+/* External CSS style file */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding: 60px;
+  background: #ffffff;
+} 
+
+body h2 {
+  margin-left: 25%;
+  margin-top: 70px;
+}
+
+/* Header (div) formatting */
+.header {
+  padding: 10px;
+  text-align: center;
+  color: #000000;
+  background-color: rgb(169, 192, 164);
+  border-radius: 15px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.header-container {
+ border-radius: 18px;
+ display: inline-block;
+ padding: 10px;
+ background-color: #d9dfdb;
+ width: 600px;
+}
+
+.header h1 {
+  font-size: 50px;
+  margin: 0;
+}
+
+.header h2 {
+ margin: 0;
+}
+
+/* Make the logo have a rounded edge */
+img.top-image {
+  vertical-align: middle;
+}
+
+/* CSS Layout from W3Schools: https://www.w3schools.com/css/css_templates.asp */
+/* Style the top navigation bar */
+.topnav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  background-color: rgb(255, 255, 255);
+  border-color: #cccccc;
+  z-index: 9999;
+  padding: 12px;
+  box-sizing: border-box;
+  margin: 0 auto;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: right;
+  display: block;
+  color: #000000;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: rgb(104, 126, 253);
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a:active {
+  background-color: #04AA6D;
+  color: white;
+}
+li .topnav:focus {
+  background-color:rgb(104, 126, 253);
+}
+
+/* Style the content */
+.content {
+ background-color: rgb(255, 255, 255);
+ padding: 20px;
+ border-radius: 5px;
+ box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+ margin-top: 15px;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+}
+
+.content p {
+ font-size: 16px;
+ line-height: 1.5;
+ margin-bottom: 10px;
+ text-shadow: white 0px 0px 10px;
+}
+
+/* Secondary style */
+.content2 {
+  background-color: #cccccc;
+  padding: 10px;
+}
+
+.content3 {
+ background-color: rgb(169, 192, 164);
+ border-radius: 18px;
+ box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+ text-align: center;
+ margin-right: 100px;margin-left: 100px;margin-top: 50px;
+ padding-top: 20px;padding-bottom: 50px;
+ padding-left: 350px;padding-right: 350px;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ text-shadow: white 0px 0px 5px;
+ -webkit-text-stroke-width: .7px;
+ -webkit-text-stroke-color: rgba(0, 0, 0, 1);
+}
+
+.student {
+ margin-bottom: 50px;
+}
+
+.student:not(:last-child) {
+ margin-right: 600px;
+}
+
+.students-container {
+ display: flex;
+ margin-top: 50px;
+}
+
+ .content2 {
+   background-color: #cccccc;
+   padding: 10px;
+ }
+
+ .flexbox1 {
+  display:flex;
+  justify-content:space-around  ;
+  align-items:center;
+
+}
+/* button1 style */
+ .button1 {
+   background-color: #ff8c00;
+   border: none;
+   color: black;
+   padding: 14px 20px;
+   text-align: center;
+   text-decoration: none;
+   font-size: 16px;
+   font-weight: normal;
+   border-radius: 10px;
+   transition-duration: 0.4;
+   min-height: 30px;
+ }
+/* button1 hover */
+.button1:hover {
+  background-color: #ffffff;
+  color: #ff8c00;
+}
+
+/* button2 style */
+.button2 {
+  background-color: #bababa;
+  border: none;
+  color: black;
+  padding: 14px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  font-weight: normal;
+  border-radius: 10px;
+  transition-duration: 0.4;
+  position: relative;
+  width: 90%;
+  margin-bottom: 20px;
+}
+
+/* Style the footer */
+.footer {
+  background-color: #cccccc;
+  padding: 10px;
+  border-radius: 18px;
+  margin-top: 10px;
+}
+
+/* Styling for Sorting Tabs/Buttons */
+#id_data_sort {
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: 50px;
+}
+
+#id_data_sort label {
+  margin-bottom: 43px;
+}
+
+#id_data_sort input[type="radio"] {
+  display: none;
+}
+
+#id_data_sort span {
+  display: inline-block;
+  padding: 10px;
+  min-width: 150px;
+  text-align: center;
+  text-transform: uppercase;
+  border-radius: 5px;
+  color: rgb(0, 0, 0);
+  cursor: pointer;
+  margin-left: 15px;
+  margin-bottom: 15px;
+  background-color: #adacac;
+}
+
+#id_data_sort input[type="radio"]:checked + span {
+  background-color: rgb(169, 192, 164);
+  color: black;
+}
+
+.sortcontainer1 {
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 20px;
+  margin-top: 32px;
+}
+
+.sortcontainer2 {
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 20px;
+}
+
+h2 {
+  margin-left: 30px;
+}
+
+.form-container {
+  padding: 20px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.form-group {
+  margin-bottom: 15px;
+  margin-top: 7px;
+  display:grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+
+.form-group label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+  margin-top: 8px;
+  margin-left: 87px;
+  text-align: left;
+}
+
+.form-group select {
+  padding: 10px;
+  border: 2px solid rgb(169, 192, 164);
+  border-radius: 10px;
+  color: rgb(0, 0, 0);
+  cursor: pointer;
+}
+
+.form-group input[type='submit'] {
+  background-color: rgb(169, 192, 164);
+  border: none;
+  color: black;
+  padding: 10px 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 10px;
+  transition-duration: 0.4s;
+  position: relative;
+  margin-top: 15px;
+}
+
+.form-group input[type='submit']:hover {
+  background-color: rgb(169, 192, 164);
+  color: #0073ff;
+  cursor: pointer;
+}
+
+.datacontainer {
+  background-color: #ffffff;
+  text-align: center;
+  border-radius: 25px;
+  margin-top: 15px;
+  padding: 1px;
+}
+
+.datacontainer h2 {
+  text-align: center;
+  margin-top: 65px;
+}
+
+/* button3 style */
+.button3 {
+  background-color: #4fc252;
+  border: none;
+  color: black;
+  padding: 14px 20px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: normal;
+  border-radius: 10px;
+  transition-duration: 0.4;
+  min-height: 30px;
+}
+/* button1 hover */
+.button3:hover {
+ background-color: #ffffff;
+ color: #4fc252;
+}
+
+/*DATATABLE CSS STYLING*/
+
+.table-container {
+  max-height: 600px;
+  overflow-y: auto;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  table-layout: fixed;
+}
+
+th, td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+th {
+  position: sticky;
+  top: 0;
+  background-color: #f2f2f2;
+  font-weight: bold;
+}
+
+.logo-link {
+  display: block;
+  text-decoration: none;
+  margin-top: -36px;
+  float: left;
+  position: absolute;
+  margin-left: -30px;
+}
+
+.topnav .logo-link:hover {
+  background-color: transparent;
+  color: inherit;
+}
+
+.italic {
+  font-style: italic;
+}
+
+.table-title {
+  text-align: left;
+  background-color: #f2f2f2;
+  padding: 10px;
+}
+
+.table-title h2 {
+  font-size: 24px;
+  color: #333333;
+  margin: 0;
+  margin-bottom: 15px;
+}
+
+.personaContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.personaContent {
+  flex: 0 0 auto;
+  width: 400px; /* Adjust the width as needed */
+  margin: 80px 200px;
+  text-align: center;
+}
+
+.form-group2 {
+  margin-bottom: 15px;
+  margin-top: 7px;
+  display:grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+
+.form-group2 label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+  margin-top: 8px;
+  margin-left: 87px;
+  text-align: left;
+}
+
+.form-group2 select {
+  padding: 10px;
+  border: 2px solid rgb(169, 192, 164);
+  border-radius: 10px;
+  color: rgb(0, 0, 0);
+  cursor: pointer;
+}
+
+.form-group2 input[type='submit'] {
+  background-color: rgb(169, 192, 164);
+  border: none;
+  color: black;
+  padding: 10px 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 10px;
+  transition-duration: 0.4s;
+  position: relative;
+  margin-top: 15px;
+}
+
+.form-group2 input[type='submit']:hover {
+  background-color: rgb(169, 192, 164);
+  color: #0073ff;
+  cursor: pointer;
+}
+
+.search-container {
+  display: inline-flex;
+  justify-content: center;
+  margin-top: 20px;
+  margin-right: 50px;
+}
+
+.search-input {
+  padding: 8px;
+  font-size: 16px;
+  border-radius: 4px 0 0 4px;
+  border: 1px solid #ccc;
+  outline: none;
+  width: 150px;
+  height: 60px;
+  margin-left: 100px;
+}
